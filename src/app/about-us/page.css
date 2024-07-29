@@ -13,22 +13,25 @@
   overflow: hidden; 
 }
 h3.subtitle {
-  font-size: 13px;
+  font-size: 9px;
   color: #8a4513;
-  font-weight: 200;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
+  word-spacing: 4px;
+  font-family: Arial;
   margin-bottom: 10px;
-  top: -66px;
+  top: -36px;
   position: relative;
 }
 
 h1.title {
-  font-size: 30px;
+  font-size: 29px;
   color: #333;
   margin-bottom: 20px;
-  top: -79px;
-  left: 42px;
+  top: -50px;
+  word-spacing: 3px;
+  left: 484px;
+  font-family: Arial;
 }
 
 .title {
@@ -40,11 +43,12 @@ h1.title {
 }
 
 .description {
-  font-size: 18px;
+  font-size: 12px;
   color: #666;
-  top: -87px;
-  left: 345px;
-  width: 847px;
+  top: -56px;
+  left: 451px;
+  width: 623px;
+  word-spacing: -1px;
   margin-bottom: 40px;
   align-content: center;
 }
@@ -67,50 +71,57 @@ h1.title {
   top: -54px;
 }
 .textContent h2 {
-  font-size: 28px;
+  font-size: 26px;
   color: #333;
   font-weight: 100;
   position: relative;
   width: 354px;
-  left: 0;
+  word-spacing: 4px;
+  left: 28px;
   margin-bottom: 20px;
-  top: 0;
+  top: -28px;
 }
 .textContent p {
   color: #666;
   margin-bottom: 20px;
-  left: 0;
-  top: 0;
-  width: 422px;
-  line-height: 28px;
-  font-size: 16px;
+  left: 26px;
+  position: relative;
+  top: -33px;
+  word-spacing: -1px;
+  width: 369px;
+  line-height: 25px;
+  font-size: 12px;
 }
+
 .donateButton {
   background-color: #8b4513;
   color: white;
   padding: 10px 20px;
+  height: 15px;
+  width: 129px;
+  text-align: center;
   text-decoration: none;
   border-radius: 5px;
   position: relative;
-  left: 0; 
-  font-weight: bold;
-  top: 0; 
+  font-size: 11px;
+  left: 26px;
+  font-weight: 100;
+  top: -21px;
   display: inline-block;
 }
-
 .imageContainer {
     position: relative;
     flex: 1;
     height: 497px;
     left: -160px;
 }
-.imageContainer img {
-  width: 67%;
-  height: 284px;
-  left: 181px;
-  top: -22px;
+.image img {
   position: relative;
-  border-radius: 10px;
+  height: 329px;
+  width: 549px;
+  left: -171px;
+  border-radius: 6px;
+  top: -57px;
 }
 .image img {
   position: relative;

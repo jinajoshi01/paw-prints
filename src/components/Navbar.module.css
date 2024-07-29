@@ -1,5 +1,6 @@
 /* NavBar.module.css */
 
+
 .navbar {
   background-color: white;
   padding: 20px;
@@ -8,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 75%;
+  width: 72%;
   top: 29px;
   font-size: 14px;
   border-radius: 15px;
@@ -61,13 +62,14 @@
 
 
 .pawPrints::after {
-  content: " |"; 
+  content: " | ";
   color: transparent;
   position: absolute;
-  right: -25px;
-  top: -4px;
-  font-size: 2em; 
-  text-shadow: 0 0 2px rgb(241, 239, 239); 
+  right: -18px;
+  top: -6px;
+  font-size: 28px; /* Adjust font size for more length */
+  text-shadow: 0 0 3px #e0e0e0;
+
 }
 
 
@@ -108,6 +110,7 @@ img.pageImage {
   left: 1061px;
   top: 142px;
 }
+
 
 
 .image-container img {

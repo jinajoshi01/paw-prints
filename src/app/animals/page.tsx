@@ -33,7 +33,7 @@ const AnimalsPage: React.FC = () => {
                 <span className="goal">GOAL: ${project.goal}</span>
                 <span className="raised">RAISED: ${project.raised}</span>
               </div>
-              <div className="progressBar">
+              <div className="progressBar1">
                 <div className="progress" style={{ width: `${(project.raised / project.goal) * 100}%` }}></div>
               </div>
               <h3>{project.title}</h3>

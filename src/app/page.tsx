@@ -31,9 +31,9 @@ const HomePage: React.FC = () => {
               alt="Cat"
             /> 
             <div className="content">
-              <h4>SAVING LIVES EVERY DAY.</h4>
-              <h1>Saving lives of cats and dogs across the world</h1>
-              <p>We advocate for vulnerable animals, providing safety while promoting responsible pet ownership. We uplift both animals and communities.</p>
+              <h4>SAVING LIVES EVERY DAY</h4>
+              <h1 className='h'>Saving lives of cats and dogs across world</h1>
+              <p className='p'>We advocate for vulnerable animals, providing safety while promoting responsible pet ownership. We uplift both animals and communities.</p>
               <span className="button" onClick={() => document.getElementById('about')?.scrollIntoView()}>About Us &rarr;</span>
             </div>
           </section>

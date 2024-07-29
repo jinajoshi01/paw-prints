@@ -26,9 +26,11 @@ img.volunteer-image {
 p.volunteer-description {
   position: relative;
   top: 10px;
-  font-size: 15px;
-  width: 671px;
-  left: 458px;
+  color: #666666;
+  font-family: Arial;
+  font-size: 10px;
+  width: 565px;
+  left: 521px;
   text-align: center;
 }
 h4.volunteer-author {
@@ -41,10 +43,11 @@ p.volunteer-content {
   position: relative;
   width: 524px;
   left: 621px;
+  font-family: Arial;
   top: -200px;
-  font-size: 15px;
-  line-height: 27px;
-  word-spacing: 11px;
+  font-size: 13px;
+  line-height: 25px;
+  word-spacing: 5px;
 }
 
 .volunteer-button-container {
@@ -84,6 +87,7 @@ p.volunteer-content {
   position: relative;
   overflow: hidden;
   left: 201px;
+  top: -88px;
   text-align: center;
   border-radius: 10px;
   margin-top: 2rem;
@@ -128,14 +132,14 @@ p.volunteer-content {
 }
 img.dog-image {
   position: relative;
-  left: -297px;
-  top: -272px;
-  width: 271px;
-  height: 272px;
+  left: -299px;
+  top: -291px;
+  width: 238px;
+  height: 249px;
 }
 img.cat-image {
   position: relative;
-  left: 296px;
+  left: 304px;
   height: 272px;
   width: 271px;
   top: -273px;

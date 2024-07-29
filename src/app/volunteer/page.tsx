@@ -61,7 +61,9 @@ const VolunteerPage = () => {
         <p className="volunteer-content">&quot;{content}&quot;</p>
         <h4 className="volunteer-author">{fullName}</h4>
         <div className="volunteer-button-container">
-          <button onClick={handlePrev} className="volunteer-button">&lt;</button>
+          {currentIndex > 0 && (
+            <button onClick={handlePrev} className="volunteer-button">&lt;</button>
+          )}
           <button onClick={handleNext} className="volunteer-button">&gt;</button>
         </div>
       </div>

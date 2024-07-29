@@ -15,15 +15,20 @@
   margin-bottom: 1rem;
 }
 
-.title1 {
+.title12 {
   font-size: 14px;
   position: relative;
-  left: 22px;
+  left: 490px;
   color: #8a4513;
   font-weight: 100;
   top: -114px;
 }
-
+p.subtitle1 {
+  position: relative;
+  left: 470px;
+  width: 592px;
+  top: -129px;
+}
 .subtitle {
   font-size: 13px;
   width: 594px;
@@ -67,9 +72,8 @@
 
 .month {
   font-size: 1rem;
-  color: #000000;
+  color: #aca7a7;
 }
-
 .campaignLocation, .campaignTime {
   font-size: 13px;
   color: #090909;
@@ -77,13 +81,17 @@
   left: -1px;
   margin-bottom: 0.5rem;
 }
-
-.campaignTitle {
-  font-size: 1.2rem;
-  color: #8b4513;
-  margin-bottom: 0.5rem;
+p.campaignTime {
+  position: relative;
+  top: 27px;
 }
 
+.campaignTitle {
+  font-size: 17px;
+  color: #090909;
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+}
 .viewAllButton {
   background-color: #8b4513;
   color: #fff;

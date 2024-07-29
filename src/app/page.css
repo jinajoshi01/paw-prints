@@ -13,10 +13,9 @@ html {
 
 span.button {
   position: relative;
-  top: -127px;
+  top: -143px;
   left: 84px;
 }
-
 html {
   scroll-behavior: smooth; 
 }
@@ -44,16 +43,19 @@ html {
 }
 h4 {
   position: relative;
-  font-size: 17px;
-  top: -94px;
+  font-size: 11px;
+  top: -107px;
+  font-weight: 600;
   left: 89px;
+  letter-spacing: 1px;
 }
-
 h1 {
-  font-size: 43px;
+  font-size: 39px;
   position: relative;
-  left: 86px;
+  font-family: Arial;
+  left: 83px;
   top: -143px;
+  width: 510px;
 }
 .content {
   display: flex;
@@ -71,34 +73,45 @@ h1 {
 }
 
 p {
-  margin: 4px 0;
   position: relative;
   left: 87px;
-  top: -170px;
-  font-size: 18px;
+  font-weight: 100;
+  top: -169px;
+  font-family: Arial;
+  width: 565px;
+  line-height: 24px;
+  font-size: 11px;
+  letter-spacing: 1px;
 }
 .button {
   background-color: saddlebrown;
   color: white;
   padding: 10px 20px;
+  width: 80px;
+  height: 19px;
   text-decoration: none;
   border-radius: 5px;
-  font-weight: bold;
   white-space: nowrap;
+  font-size: 12px;
+  text-align: center;
 }
-
 img.pageImage {
-  max-width: 316px;
-  height: 407px;
+  height: 420px;
+  width: 345px;
   position: relative;
-  left: 1056px;
+  left: 1019px;
   top: 142px;
 }
 .mainContent {
   height: 741px;
 }
-
-
+p.p {
+  font-family: Arial;
+  font-size: 14px;
+  width: 621px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
 .sectionsContainer {
   background-color: white;
 }
@@ -106,4 +119,44 @@ img.pageImage {
 .section {
   padding: 0px;
   overflow-x: hidden;
+}
+.Navbar_navLink__id1IU {
+  color: #000000;
+  font-family: Arial;
+  display: flex;
+  letter-spacing: 2px;
+  position: relative;
+  left: -22px;
+}
+.Navbar_pawPrints__i3n3W {
+  font-weight: bold;
+  color: #8a4513;
+  font-size: 17px;
+  font-family: cursive;
+  margin-right: 30px;
+  position: relative;
+  display: inline-block;
+}
+.Navbar_navList__3LBi0 {
+  list-style-type: none;
+  margin: 0;
+  position: relative;
+  font-size: 12px;
+  left: 5px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Navbar_button__ARN2R {
+  background-color: #ffffff;
+  color: #8a4513;
+  width: 79px;
+  text-align: center;
+  height: 21px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-weight: 100;
+  border: 1px solid #8a4513;
 }

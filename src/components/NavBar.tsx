@@ -21,22 +21,22 @@ const NavBar: React.FC = () => {
         </li>
         <li className={styles.navItem}>
           <a href="#campaigns-topics" onClick={() => handleScroll('campaigns-topics')} className={styles.navLink}>
-            Campaigns and Topics <span className={styles.arrow}>▾</span>
+            Campaigns & Topics <span className={styles.arrow}>&#9662;</span>
           </a>
         </li>
         <li className={styles.navItem}>
           <a href="#animals" onClick={() => handleScroll('animals')} className={styles.navLink}>
-            Animals <span className={styles.arrow}>▾</span>
+            Animals <span className={styles.arrow}>&#9662;</span>
           </a>
         </li>
         <li className={styles.navItem}>
           <a href="#about" onClick={() => handleScroll('about')} className={styles.navLink}>
-            About Us <span className={styles.arrow}>▾</span>
+            About Us <span className={styles.arrow}>&#9662;</span>
           </a>
         </li>
         <li className={styles.navItem}>
           <a href="#contact" onClick={() => handleScroll('contact')} className={styles.navLink}>
-            Contact <span className={styles.arrow}>▾</span>
+            Contact <span className={styles.arrow}></span>
           </a>
         </li>
       </ul>

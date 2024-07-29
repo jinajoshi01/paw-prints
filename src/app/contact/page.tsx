@@ -2,7 +2,8 @@
 "use client";
 
 import React, { useState } from 'react';
-import { FaTwitter, FaFacebookF, FaInstagram } from 'react-icons/fa'; 
+
+import { FaXTwitter, FaFacebookF, FaInstagram } from 'react-icons/fa6'; 
 import './page.css';
 
 const ContactSection: React.FC = () => {
@@ -77,7 +78,7 @@ const ContactSection: React.FC = () => {
             <h4 className="h4SocialMedia">SOCIAL MEDIA</h4>
             <p className='four'>Follow us on social media to find out the latest updates on our progress.</p>
             <ul className="socialMediaIcons">
-              <li><a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer"><FaTwitter /></a></li>
+              <li><a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer"><FaXTwitter/></a></li>
               <li><a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a></li>
               <li><a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
             </ul>

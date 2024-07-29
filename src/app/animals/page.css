@@ -17,7 +17,7 @@
   font-size: 11px;
   font-weight: 100;
   position: relative;
-  left: 13px;
+  left: 505px;
   top: 16px;
   color: #8a4513;
 }
@@ -25,12 +25,12 @@
 .sectionSubtitle {
   font-size: 13px;
   top: -7px;
-  left: 451px;
-  width: 590px;
+  left: 446px;
+  width: 670px;
+  word-spacing: -1px;
   color: #666;
   margin-bottom: 40px;
 }
-
 .cardsContainer {
   display: flex;
   flex-wrap: wrap;
@@ -65,49 +65,71 @@
   margin-bottom: 10px;
 }
 
-.cardStats .goal,
-.cardStats .raised {
+
+.cardStats .goal, .cardStats .raised {
   display: inline-block;
   width: 50%;
+  color: black;
+  font-family: Arial;
+  font-size: 11px;
 }
 
-.progressBar {
+span.goal {
+  position: relative;
+  left: 0px;
+}
+span.raised {
+  position: relative;
+  left: 54px;
+}
+
+.progressBar1 {
+  width: 100%;
   background-color: #e0e0e0;
+  height: 5px;
   border-radius: 5px;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 10px; 
 }
 
 .progress {
-  height: 10px;
   background-color: #8b4513;
-  border-radius: 5px;
+  height: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
 }
 
+
 .card h3 {
-  font-size: 20px;
+  font-size: 18px;
   color: #333;
+  font-weight: 100;
   margin-bottom: 10px;
 }
 
 .card p {
-  font-size: 11px;
+  font-size: 12px;
   color: #666;
   top: 3px;
+  width: 262px;
   margin-bottom: 20px;
   left: 0px;
 }
-
 .detailsButton {
   color: #8b4513;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
   font-weight: 100;
-  font-size: 13px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  font-family: Arial;
+  font-size: 14px;
   display: inline-block;
 }
-
 .viewAllButton {
   display: inline-block;
   margin-top: 40px;

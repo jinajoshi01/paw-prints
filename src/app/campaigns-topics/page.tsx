@@ -31,9 +31,9 @@ const campaigns = [
 const CampaignsTopicsPage: React.FC = () => {
   return (
     <div className="campaignsSection" id="campaigns-topics">
-      <h1 className="title1">CALENDER</h1>
+      <h1 className="title12">CALENDER</h1>
       <h2 className="title">Event Schedule</h2>
-      <p className="subtitle">
+      <p className="subtitle1">
         We advocate for vulnerable animals, providing safety while promoting responsible pet ownership. We uplift both animals and communities.
       </p>
       <div className="campaignsContainer">

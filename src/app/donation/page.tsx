@@ -63,7 +63,7 @@ const DonationSection: React.FC = () => {
           </div>
           <div className="progressBar">
             <div className="progress" style={{ width: `${progress}%` }}>
-              {progress.toFixed(2)}%
+              {/*progress.toFixed(2)*/}
             </div>
           </div>
         </div>
@@ -87,7 +87,8 @@ const DonationSection: React.FC = () => {
           className="donateNowButton" 
           onClick={handleDonateNow}
         >
-          {donationSubmitted ? 'Thank you for your donation!' : 'Donate Now'}
+            {donationSubmitted ? 'Thank you for your donation!' : 'Donate Now'}
+            {!donationSubmitted && <span>&#x2192;</span>}
         </button>
       </div>
     </div>
