@@ -1,7 +1,8 @@
 // src/app/volunteer/page.tsx
-
+"use client";
 import { useState, useEffect } from 'react';
 import './page.css'; 
+import Image from 'next/image';
 
 const VolunteerPage = () => {
   const [testimonials, setTestimonials] = useState([]);
@@ -13,7 +14,6 @@ const VolunteerPage = () => {
         const response = await fetch('https://raw.githubusercontent.com/Himal-Marasini/frontend-task/main/testinomial_data.json');
         const data = await response.json();
 
-        
         const adjustedTestimonials = data.testimonial.map((testimonial: any, index: number) => {
           const localImagePath = `/Image/${index + 1}.png`; 
           return {
@@ -51,8 +51,14 @@ const VolunteerPage = () => {
       <h3 className="volunteer-subheading">Check what our volunteers are saying</h3>
       <p className="volunteer-description">We advocate for vulnerable animals, providing safety while promoting responsible pet ownership. We uplift both animals and communities.</p>
       <div className="volunteer-testimonial">
-        <img src={imagePath} alt={fullName} className="volunteer-image" />
-        <p className="volunteer-content">"{content}"</p>
+        <Image
+          src={imagePath}
+          alt={fullName}
+          className="volunteer-image"
+          width={500} // Replace with the actual width of your images
+          height={300} // Replace with the actual height of your images
+        />
+        <p className="volunteer-content">&quot;{content}&quot;</p>
         <h4 className="volunteer-author">{fullName}</h4>
         <div className="volunteer-button-container">
           <button onClick={handlePrev} className="volunteer-button">&lt;</button>
@@ -68,8 +74,20 @@ const VolunteerPage = () => {
           <button>Volunteering opportunities →</button>
         </div>
         <div className="get-involved-images">
-          <img src="Image/get-involved-dog.png" alt="Dog" className="dog-image" />
-          <img src="Image/get-involved-cat.png" alt="Cat" className="cat-image" />
+          <Image
+            src="/Image/get-involved-dog.png"
+            alt="Dog"
+            className="dog-image"
+            width={500} // Replace with the actual width of your images
+            height={300} // Replace with the actual height of your images
+          />
+          <Image
+            src="/Image/get-involved-cat.png"
+            alt="Cat"
+            className="cat-image"
+            width={500} // Replace with the actual width of your images
+            height={300} // Replace with the actual height of your images
+          />
         </div>
       </div>
     </div>

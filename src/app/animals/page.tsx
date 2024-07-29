@@ -1,9 +1,10 @@
 // src/app/animals/page.tsx
+"use client";
 import React, { useState } from 'react';
 import './page.css';
+import Image from 'next/image';
 
 const AnimalsPage: React.FC = () => {
-  
   const [projects, setProjects] = useState([
     { id: 1, goal: 1340, raised: 800, title: 'New chance for animals', imgSrc: '/Image/animal1.png', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
     { id: 2, goal: 1340, raised: 800, title: 'Help the eco system', imgSrc: '/Image/animal2.png', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
@@ -20,10 +21,12 @@ const AnimalsPage: React.FC = () => {
       <div className="cardsContainer">
         {projects.map(project => (
           <div key={project.id} className="card">
-            <img
-              src={project.imgSrc} 
+            <Image
+              src={project.imgSrc}
               alt={project.title}
               className="cardImage"
+              width={500} // Replace with the actual width of your images
+              height={300} // Replace with the actual height of your images
             />
             <div className="cardContent">
               <div className="cardStats">

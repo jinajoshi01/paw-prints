@@ -1,16 +1,17 @@
 {
-  "homepage":"https://jinajoshi01.github.io/Paw-prints-app/",
+  "homepage": "https://jinajoshi01.github.io/Paw-prints-app/",
   "name": "task-paw-prints",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "export": "next export",
-    "deploy": "npm run build && npm run export && gh-pages -d out"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "deploy": "npm run build && gh-pages -d out",
+  "export": "next export"
+}
+,
   "dependencies": {
     "next": "14.2.5",
     "react": "^18",

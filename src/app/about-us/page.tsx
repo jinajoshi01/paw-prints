@@ -1,6 +1,7 @@
 //src/app/about-us/page.tsx
 import React from 'react';
 import './page.css';
+import Image from 'next/image';
 
 const AboutPage: React.FC = () => {
   return (
@@ -19,10 +20,7 @@ const AboutPage: React.FC = () => {
           <a href="#donate" className="donateButton">Donate for pets &rarr;</a>
         </div>
         <div className='image'>
-          <img
-            src="/Image/dog.png" 
-            alt="Running dogs"
-          />
+        <Image src="Image/dog.png" alt="Description" width={500} height={500} />
        </div>
       </div>
     </div>
