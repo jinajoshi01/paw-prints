@@ -21,7 +21,7 @@ const AboutPage: React.FC = () => {
           <a href="#donate" className="donateButton">Donate for pets &rarr;</a>
         </div>
         <div className='image'>
-        <Image src={myImage} alt="Description" />
+        <Image src={myImage} alt="Description" width={"500"} height={"300"}/>
        </div>
       </div>
     </div>
