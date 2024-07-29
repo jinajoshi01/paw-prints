@@ -1,0 +1,125 @@
+/*src/app/about-us/page.css*/
+
+.mainContent {
+  height: 100vh; 
+  overflow: hidden; 
+}
+
+
+.aboutSection {
+  padding: 105px 20px;
+  background-color: #ffffff;
+  text-align: center;
+  overflow: hidden; 
+}
+h3.subtitle {
+  font-size: 13px;
+  color: #8a4513;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+  top: -66px;
+  position: relative;
+}
+
+h1.title {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 20px;
+  top: -79px;
+  left: 42px;
+}
+
+.title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+  top: -85px;
+  left: 10px;
+}
+
+.description {
+  font-size: 18px;
+  color: #666;
+  top: -87px;
+  left: 345px;
+  width: 847px;
+  margin-bottom: 40px;
+  align-content: center;
+}
+.contentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; 
+}
+
+.textContent {
+  flex: 1;
+  min-width: 301px;
+  max-width: 600px;
+  text-align: left;
+  padding-right: 20px;
+  position: relative;
+  left: 168px;
+  top: -54px;
+}
+.textContent h2 {
+  font-size: 28px;
+  color: #333;
+  font-weight: 100;
+  position: relative;
+  width: 354px;
+  left: 0;
+  margin-bottom: 20px;
+  top: 0;
+}
+.textContent p {
+  color: #666;
+  margin-bottom: 20px;
+  left: 0;
+  top: 0;
+  width: 422px;
+  line-height: 28px;
+  font-size: 16px;
+}
+.donateButton {
+  background-color: #8b4513;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  left: 0; 
+  font-weight: bold;
+  top: 0; 
+  display: inline-block;
+}
+
+.imageContainer {
+    position: relative;
+    flex: 1;
+    height: 497px;
+    left: -160px;
+}
+.imageContainer img {
+  width: 67%;
+  height: 284px;
+  left: 181px;
+  top: -22px;
+  position: relative;
+  border-radius: 10px;
+}
+.image img {
+  position: relative;
+  height: 280px;
+  left: -140px;
+  border-radius: 15px;
+  top: -69px;
+}
+.section {
+  padding: 27px;
+  overflow-x: hidden;
+}

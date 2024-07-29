@@ -1,0 +1,117 @@
+/* NavBar.module.css */
+
+.navbar {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 75%;
+  top: 29px;
+  font-size: 14px;
+  border-radius: 15px;
+  left: 201px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+
+.pageContainer {
+  padding-top: 80px; 
+}
+
+
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+
+
+.navItem {
+  margin-right: 30px; 
+}
+
+
+.navLink {
+  color: #8a4513; 
+  text-decoration: none;
+  display: flex; 
+  align-items: center; 
+}
+
+.navLink:hover {
+  color:#8a4513;
+}
+
+
+.pawPrints {
+  font-weight: bold; 
+  color: #8a4513; 
+  font-family: 'Roboto', sans-serif; 
+  margin-right: 30px; 
+  position: relative; 
+  display: inline-block; 
+}
+
+
+.pawPrints::after {
+  content: " |"; 
+  color: transparent;
+  position: absolute;
+  right: -25px;
+  top: -4px;
+  font-size: 2em; 
+  text-shadow: 0 0 2px rgb(241, 239, 239); 
+}
+
+
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; 
+}
+
+
+.button {
+  background-color: #ffffff;
+  color: #8a4513; 
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid #8a4513; 
+  white-space: nowrap; 
+}
+
+.button:hover {
+  background-color:#8a4513; 
+  color: white; 
+  border-color: #8a4513;
+}
+
+
+.button:last-child {
+  margin-right: 0;
+}
+
+
+img.pageImage {
+  max-width: 316px;
+  height: 397px;
+  position: relative;
+  left: 1061px;
+  top: 142px;
+}
+
+
+.image-container img {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+

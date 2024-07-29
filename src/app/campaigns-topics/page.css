@@ -1,0 +1,100 @@
+.campaignsSection {
+  text-align: center;
+  padding: 11rem 2rem;
+  background-color: #fdf7f4;
+}
+
+.title {
+  font-size: 22px;
+  color: #000000;
+  position: relative;
+  top: -128px;
+  word-spacing: 10px;
+  left: 25px;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.title1 {
+  font-size: 14px;
+  position: relative;
+  left: 22px;
+  color: #8a4513;
+  font-weight: 100;
+  top: -114px;
+}
+
+.subtitle {
+  font-size: 13px;
+  width: 594px;
+  top: -128px;
+  left: 441px;
+  color: #000;
+  font-weight: 200;
+}
+
+.campaignsContainer {
+  display: flex;
+  justify-content: center; 
+  
+  gap: 2rem; 
+  margin: 0 auto; 
+  max-width: 900px; 
+}
+
+.campaignCard {
+  background-color: #f8e9db;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: calc(33.33% - 1rem); 
+  margin-bottom: 1rem; 
+  text-align: left;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.day {
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.month {
+  font-size: 1rem;
+  color: #000000;
+}
+
+.campaignLocation, .campaignTime {
+  font-size: 13px;
+  color: #090909;
+  top: 9px;
+  left: -1px;
+  margin-bottom: 0.5rem;
+}
+
+.campaignTitle {
+  font-size: 1.2rem;
+  color: #8b4513;
+  margin-bottom: 0.5rem;
+}
+
+.viewAllButton {
+  background-color: #8b4513;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.viewAllButton:hover {
+  background-color: #8b4513;
+}
