@@ -128,11 +128,15 @@ p.volunteer-content {
 }
 img.dog-image {
   position: relative;
-  left: -376px;
-  top: -259px;
+  left: -297px;
+  top: -272px;
+  width: 271px;
+  height: 272px;
 }
 img.cat-image {
   position: relative;
-  left: 376px;
-  top: -238px;
+  left: 296px;
+  height: 272px;
+  width: 271px;
+  top: -273px;
 }

@@ -55,8 +55,8 @@ const VolunteerPage = () => {
           src={imagePath}
           alt={fullName}
           className="volunteer-image"
-          width={500} // Replace with the actual width of your images
-          height={300} // Replace with the actual height of your images
+          width={300} 
+          height={300} 
         />
         <p className="volunteer-content">&quot;{content}&quot;</p>
         <h4 className="volunteer-author">{fullName}</h4>
