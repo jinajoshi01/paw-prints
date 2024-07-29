@@ -9,7 +9,7 @@
 }
 
 .newsletter h3 {
-  font-size: 17px;
+  font-size: 20px;
   top: 21px;
   color: #000000;
   margin: 0;
@@ -21,7 +21,7 @@
   font-size: 1rem;
   color: #000000;
   position: relative;
-  top: 28px;
+  top: 20px;
   left: 221px;
 }
 .newsletterForm {
@@ -93,9 +93,9 @@
   font-size: 1.5rem;
   color: #090909;
   position: relative;
-  top: -50px;
+  top: -37px;
   font-style: italic;
-  left: 84px;
+  left: 92px;
   margin-bottom: 1rem;
 }
 
