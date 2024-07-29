@@ -25,8 +25,8 @@ const AnimalsPage: React.FC = () => {
               src={project.imgSrc}
               alt={project.title}
               className="cardImage"
-              width={500} // Replace with the actual width of your images
-              height={300} // Replace with the actual height of your images
+              width={500} 
+              height={300} 
             />
             <div className="cardContent">
               <div className="cardStats">

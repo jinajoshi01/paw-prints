@@ -78,15 +78,15 @@ const VolunteerPage = () => {
             src="/Image/get-involved-dog.png"
             alt="Dog"
             className="dog-image"
-            width={500} // Replace with the actual width of your images
-            height={300} // Replace with the actual height of your images
+            width={500} 
+            height={300} 
           />
           <Image
             src="/Image/get-involved-cat.png"
             alt="Cat"
             className="cat-image"
-            width={500} // Replace with the actual width of your images
-            height={300} // Replace with the actual height of your images
+            width={500} 
+            height={300}
           />
         </div>
       </div>
